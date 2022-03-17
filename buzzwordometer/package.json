@@ -1,0 +1,20 @@
+{
+  "name": "buzzwordometer",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "jquery": "^3.6.0",
+    "vite-plugin-windicss": "^1.8.3",
+    "windicss": "^3.5.1"
+  }
+}
