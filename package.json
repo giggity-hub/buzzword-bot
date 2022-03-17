@@ -1,0 +1,11 @@
+{
+    "name": "soossaas",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "cd api && yarn start",
+      "build": "cd buzzwordometer && yarn build",
+      "install": "(cd api && yarn install) & (cd buzzwordometer && yarn install)"
+    }
+}
